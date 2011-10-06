@@ -37,4 +37,14 @@ describe Account do
     subject.balance.should == 60.0
   end
 
+    it "should not lose money" do
+    starting_balance = 100.0
+    subject1 = Account.new(starting_balance)
+    subject2 = Account.new(starting_balance)
+    amount = 40.0
+    subject1.transfer_to subject2, amount
+    subject1.balance.should == 60.0
+    subject2.balance.should == 140.0
+  end
+
 end

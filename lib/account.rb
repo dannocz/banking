@@ -13,6 +13,10 @@ class Account
   @balance -= amount
   end
 
+  def transfer_to account2, amount
+     withdraw amount
+     account2.deposit amount
+  end
 
 
 end
