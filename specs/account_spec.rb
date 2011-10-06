@@ -29,4 +29,12 @@ describe Account do
     subject.balance.should == 140.00
   end
 
+  it "should have a balance equal to the starting balance minus the amount withdrawn" do
+    starting_balance = 100.0
+    subject = Account.new(starting_balance)
+    amount = 40.0
+    subject.withdraw amount
+    subject.balance.should == 60.0
+  end
+
 end
