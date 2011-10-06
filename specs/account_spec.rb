@@ -19,4 +19,14 @@ describe Account do
     subject = Account.new(starting_balance)
     subject.balance.should ==starting_balance
   end
+
+
+  it "should have a balance equal to the starting balance plus the amount deposited" do
+    starting_balance = 100.00
+    subject = Account.new(starting_balance)
+    amount = 40.0
+    subject.deposit amount
+    subject.balance.should == 140.00
+  end
+
 end
