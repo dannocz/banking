@@ -12,4 +12,11 @@ describe Account do
 
 
   end
+
+
+  it "should have a balance equal to the starting balance" do
+    starting_balance = 100.00
+    subject = Account.new(starting_balance)
+    subject.balance.should ==starting_balance
+  end
 end
