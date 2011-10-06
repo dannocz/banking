@@ -5,4 +5,10 @@ class Account
       @balance =starting_balance
   end
 
+  def deposit(amount)
+    @balance += amount
+
+
+  end
+
 end
