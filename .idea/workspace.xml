@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="93192278-ff91-49e9-b972-ff5ad165af3d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/account.rb" afterPath="$PROJECT_DIR$/lib/account.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/specs/account_spec.rb" afterPath="$PROJECT_DIR$/specs/account_spec.rb" />
     </list>
     <ignored path="banking.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +37,7 @@
       <file leaf-file-name="account.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/account.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="22" selection-start="76" selection-end="76" vertical-scroll-proportion="0.13812155">
+            <state line="3" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.08287293">
               <folding />
             </state>
           </provider>
@@ -370,7 +369,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/account.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="76" selection-end="76" vertical-scroll-proportion="0.13812155">
+        <state line="3" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.08287293">
           <folding />
         </state>
       </provider>
